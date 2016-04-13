@@ -1,18 +1,16 @@
-sudo: false
+sudo: required
+dist: trusty
 
-language: node_js
+language: 
 node_js:
   - "5"
   
-language: ruby
-rvm:
-  - 2.0.0-p247
-  
 before_script:
+  - sudo apt-get install ruby2.0
   - npm install gulpjs/gulp-cli#4.0 -g
   - npm install gulp -g
   - npm install 
-  - bundle install
+  - bundle install --path vendor/bundle
 script: gulp build --prod
 
 
