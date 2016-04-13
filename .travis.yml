@@ -4,6 +4,10 @@ language: node_js
 node_js:
   - "5"
   
+language: ruby
+rvm:
+  - 2.0.0-p247
+  
 before_script:
   - npm install gulpjs/gulp-cli#4.0 -g
   - npm install gulp -g
