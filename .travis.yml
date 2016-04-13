@@ -1,7 +1,9 @@
-language: node_js
+language: node_js, ruby
 sudo: false
 node_js:
 - "5"
+rvm:
+- "2.1"
   
 before_script:
   - npm install gulpjs/gulp-cli#4.0 -g
@@ -9,5 +11,3 @@ before_script:
   - npm install 
   - bundle install --path vendor/bundle
 script: gulp build
-
-
