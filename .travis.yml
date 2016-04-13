@@ -4,7 +4,6 @@ node_js:
 - "5"
   
 before_script:
-  - sudo apt-get install ruby2.0
   - npm install gulpjs/gulp-cli#4.0 -g
   - npm install --save-dev babel-core
   - npm install 
