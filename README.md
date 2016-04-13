@@ -1,6 +1,6 @@
-# jekyllwp
+# jekyllwp [![Build Status](https://travis-ci.org/kerrongordon/jekyllwp.svg?branch=master)](https://travis-ci.org/kerrongordon/jekyllwp)
 
-> theme jekyll to look like a wordpress site
+> Theme jekyll to look like a wordpress site
 
 ## To get started
 
@@ -25,7 +25,7 @@ $ gulp deploy
 ## Install
 If you have cloned this repo or want to reinstall, make sure there's no
 `node_modules` or `Gemfile.lock` folder/file and then run `npm install` and
-`bundle install`.
+`bundle install` or `bundle install --path vendor/bundle`.
 
 ## Github
 For more information on how to use your new project, please refer to the [README
