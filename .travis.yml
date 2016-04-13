@@ -11,6 +11,6 @@ before_script:
   - npm install gulp -g
   - npm install 
   - bundle install --path vendor/bundle
-script: gulp build --prod
+script: gulp build
 
 
